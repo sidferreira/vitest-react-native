@@ -1,0 +1,17 @@
+{
+  "name": "vitest-react-strip-flow",
+  "type": "module",
+  "version": "0.1.0",
+  "main": "./src/index.cjs",
+  "exports": {
+    ".": "./src/index.cjs",
+    "./plugin": "./src/plugin.ts"
+  },
+  "dependencies": {
+    "flow-remove-types": "^2.304.0"
+  },
+  "peerDependencies": {
+    "vitest": ">=4.0.0",
+    "esbuild": ">=0.27.0"
+  }
+}

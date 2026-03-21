@@ -1,0 +1,7 @@
+{
+  "name": "vitest-react-native-reanimated",
+  "version": "0.1.0",
+  "main": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "peerDependencies": { "vitest": ">=4.0.0", "react-native-reanimated": ">=4.0.0" }
+}

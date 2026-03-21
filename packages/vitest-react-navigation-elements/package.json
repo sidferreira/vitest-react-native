@@ -1,0 +1,7 @@
+{
+  "name": "vitest-react-navigation-elements",
+  "version": "0.1.0",
+  "main": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "peerDependencies": { "vitest": ">=4.0.0" }
+}
